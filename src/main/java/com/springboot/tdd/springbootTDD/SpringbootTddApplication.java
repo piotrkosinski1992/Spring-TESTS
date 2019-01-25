@@ -12,8 +12,8 @@ import org.springframework.cache.annotation.EnableCaching;
 @EnableCaching
 public class SpringbootTddApplication implements CommandLineRunner {
 
-	@Autowired
-	private CarRepository carRepository;
+/*	@Autowired
+	private CarRepository carRepository;*/
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootTddApplication.class, args);
@@ -21,7 +21,7 @@ public class SpringbootTddApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		carRepository.save(new Car("prius","hybrid"));
+//		carRepository.save(new Car("prius","hybrid"));
 	}
 }
 
