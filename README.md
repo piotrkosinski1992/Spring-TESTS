@@ -7,3 +7,6 @@
 @DataJpaTest - Unit tests with Spring Data parts
 
 @Mock - Pure unit tests
+
+
+zmiana
